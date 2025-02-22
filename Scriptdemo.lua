@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Script tong hop"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "Key System",
         Description = "",
         KeyLink = "",
@@ -30,9 +30,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Script Blox"})
+     local Tab2o = MakeTab({Name = "Kaitun BF"}
+         )
+     local Tab3o = MakeTab({Name = "Hop Server BF"})
+     local Tab4o = MakeTab({Name = "Fruits Battlegrounds"})
      
 ------- BUTTON
+--Tap 1
     
     AddButton(Tab1o, {
      Name = "Redz Hub",
@@ -64,36 +69,46 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   })
   
     AddButton(Tab1o, {
-     Name = "LongHuy Kaitun",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Buithanh42/Testkaitun-/refs/heads/main/KaitunBfBeta.lua"))()
-  end
-  })
-  
-    AddButton(Tab1o, {
-     Name = "Volcano Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
-  end
-  })
-  
-    AddButton(Tab1o, {
      Name = "Vxeze Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
   end
   })
-  
+
     AddButton(Tab1o, {
+     Name = "Hiru Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end
+  })
+
+-- Tab 2
+    AddButton(Tab2o, {
+     Name = "LongHuy Kaitun",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Buithanh42/Testkaitun-/refs/heads/main/KaitunBfBeta.lua"))()
+  end
+  })
+
+-- Tab 3  
+    AddButton(Tab3o, {
      Name = "Hop Server Rip",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Rip_Indra"))()
   end
   })
   
-    AddButton(Tab1o, {
+    AddButton(Tab3o, {
      Name = "Hop Server Dought King",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
+  end
+  })
+
+-- Tab 4
+    AddButton(Tab4o, {
+     Name = "Swicth Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4ae71d76cbc995dd03fb9332e47e0fe8.lua"))()
   end
   })
