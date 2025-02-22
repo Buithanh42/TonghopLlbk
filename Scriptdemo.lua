@@ -1,8 +1,3 @@
-print("LongHuyLoadingg...")
-wait(10)
-print("LongHuyComplete")
-wait(2)
-print("CC++")
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
@@ -15,10 +10,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"LongHuyTheBest"},
+        Keys = {"HelooSucCac"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
+        CorrectKey = "Con Cac LongHuy",
        Incorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
       }
@@ -75,16 +70,30 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
   })
   
-      AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Volcano Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
   end
   })
   
-      AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Vxeze Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "Hop Server Rip",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Rip_Indra"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "Hop Server Dought King",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
   end
   })
