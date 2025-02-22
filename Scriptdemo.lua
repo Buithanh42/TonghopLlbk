@@ -35,6 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          )
      local Tab3o = MakeTab({Name = "Hop Server BF"})
      local Tab4o = MakeTab({Name = "Fruits Battlegrounds"})
+     local Tab5o = MakeTab({Name = "Dev"})
      
 ------- BUTTON
 --Tap 1
@@ -110,5 +111,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
      Name = "Swicth Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4ae71d76cbc995dd03fb9332e47e0fe8.lua"))()
+  end
+  })
+  
+-- tab 5
+    AddButton(Tab5o, {
+     Name = "SimpleSpy",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/SimpleSpy/refs/heads/main/Mobile.lua"))()
+  end
+  })
+  
+    AddButton(Tab5o, {
+     Name = "Dex Explorer",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/DEX-Explorer/refs/heads/main/Mobile.lua"))()
   end
   })
