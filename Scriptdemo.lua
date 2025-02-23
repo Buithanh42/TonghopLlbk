@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=80896980458454",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -36,7 +36,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Hop Server BF"})
      local Tab4o = MakeTab({Name = "Fruits Battlegrounds"})
      local Tab5o = MakeTab({Name = "Dev"})
-     local Tab6o = MakeTab({Name = "Dragon Training🐉"})
      
 ------- BUTTON
 --Tap 1
@@ -127,13 +126,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
      Name = "Dex Explorer",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/DEX-Explorer/refs/heads/main/Mobile.lua"))()
-  end
-  })
-  
---- Tab 6
-    AddButton(Tab6o, {
-     Name = "LH-Hub",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Buithanh42/PremiumHub/refs/heads/main/DragonTrainingLH.lua"))()
   end
   })
