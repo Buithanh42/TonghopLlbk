@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Longg Hubb",
-         Animation = "Script tong hop"
+         Title = "LH-HUB | TONG HOP",
+         Animation = "By Huykamado_"
          },
         Key = {
         KeySystem = false,
@@ -36,6 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Hop Server BF"})
      local Tab4o = MakeTab({Name = "Fruits Battlegrounds"})
      local Tab5o = MakeTab({Name = "Dev"})
+     local Tab6o = MakeTab({Name = "Dragon Training🐉"})
      
 ------- BUTTON
 --Tap 1
@@ -126,5 +127,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
      Name = "Dex Explorer",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/DEX-Explorer/refs/heads/main/Mobile.lua"))()
+  end
+  })
+  
+--- Tab 6
+    AddButton(Tab6o, {
+     Name = "LH-Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Buithanh42/PremiumHub/refs/heads/main/DragonTrainingLH.lua"))()
   end
   })
