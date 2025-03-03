@@ -36,6 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Hop Server BF"})
      local Tab4o = MakeTab({Name = "Fruits Battlegrounds"})
      local Tab5o = MakeTab({Name = "Dev"})
+     local Tab6o = MakeTab({Name = "Script BF-KEY"})
      
 ------- BUTTON
 --Tap 1
@@ -82,6 +83,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
   end
   })
+  
+    AddButton(Tab1o, {
+     Name = "Astral V1 hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Volcano Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoNewUpdated.luau"))()
+  end
+  })
 
 -- Tab 2
     AddButton(Tab2o, {
@@ -105,7 +120,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
   end
   })
-
+  
+    AddButton(Tab3o, {
+     Name = "Hop Server Mirage island",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Mirage-Teddyreal-FREE"))()
+  end
+  })
 -- Tab 4
     AddButton(Tab4o, {
      Name = "Swicth Hub",
@@ -126,5 +147,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
      Name = "Dex Explorer",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/DEX-Explorer/refs/heads/main/Mobile.lua"))()
+  end
+  })
+  
+    AddButton(Tab6o, {
+     Name = "Cokka Hub-Key",
+    Callback = function()
+      loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Forge Hub-Key",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
   end
   })
